@@ -1,0 +1,8 @@
+|electronic_card_lock
+key_0 => comb.IN1
+key_0 => card_read.IN0
+key_0 => comb.IN1
+key_1 => card_read.IN1
+card_read << card_read$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

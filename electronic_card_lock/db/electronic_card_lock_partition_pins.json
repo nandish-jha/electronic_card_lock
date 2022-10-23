@@ -1,0 +1,21 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "card_read",
+					"strict" : false
+				},
+				{
+					"name" : "key_0",
+					"strict" : false
+				},
+				{
+					"name" : "key_1",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

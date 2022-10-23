@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, /home/naj474/engr-ece/CME341/Labs/CME341_Lab_7/electronic_card_lock/electronic_card_lock.sv
+source_file = 1, /home/naj474/engr-ece/CME341/Labs/CME341_Lab_7/electronic_card_lock/electronic_card_lock.csv
+source_file = 1, /home/naj474/engr-ece/CME341/Labs/CME341_Lab_7/electronic_card_lock/db/electronic_card_lock.cbx.xml
+design_name = electronic_card_lock
+instance = comp, \card_read~output , card_read~output, electronic_card_lock, 1
+instance = comp, \key_0~input , key_0~input, electronic_card_lock, 1
+instance = comp, \key_1~input , key_1~input, electronic_card_lock, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1
